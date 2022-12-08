@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fortunebitos/static/css/main.faca3427.css",
+    "main.js": "/fortunebitos/static/js/main.1d866c39.js",
+    "static/js/787.128fc6e9.chunk.js": "/fortunebitos/static/js/787.128fc6e9.chunk.js",
+    "index.html": "/fortunebitos/index.html",
+    "main.faca3427.css.map": "/fortunebitos/static/css/main.faca3427.css.map",
+    "main.1d866c39.js.map": "/fortunebitos/static/js/main.1d866c39.js.map",
+    "787.128fc6e9.chunk.js.map": "/fortunebitos/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faca3427.css",
+    "static/js/main.1d866c39.js"
+  ]
+}
