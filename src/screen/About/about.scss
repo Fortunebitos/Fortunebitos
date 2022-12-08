@@ -1,0 +1,122 @@
+.a-main {
+  width: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dkg6aexz0/image/upload/v1670479302/Group_1_crtuho.png");
+  background-size: cover;
+  background-position: center;
+ 
+  .a-row {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    gap: 6rem;
+    .img-abt {
+      height: 50rem;
+      width: 50%;
+    }
+    .a-column {
+      display: flex;
+      flex-direction: column;
+
+      .a-bt {
+        color: #fff;
+        font-size: 48px;
+        font-family: "Chakra Petch";
+        line-height: 5rem;
+        b {
+          color: rgba(0, 185, 199, 1);
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 24px;
+        line-height: 36px;
+      }
+      .a-imp {
+        padding-top: 2rem;
+        line-height: 36px;
+        font-size: 24px;
+      }
+
+      .b-column {
+        margin-top: 4rem;
+        .b-bt {
+          color: #fff;
+          font-size: 48px;
+          font-family: "Chakra Petch";
+          line-height: 5rem;
+          b {
+            color: rgba(0, 185, 199, 1);
+          }
+        }
+        p {
+          color: #fff;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 890px) {
+  .a-main {
+    .a-row {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+      .img-abt {
+        height: 15rem;
+        width: 55%;
+        padding: 0;
+        margin: 70px;
+      }
+
+      .a-column {
+        margin-top: -5rem;
+        margin-bottom: 5rem;
+        align-items: center;
+
+        .a-bt {
+          color: #fff;
+          font-size: 2rem;
+          font-family: "Chakra Petch";
+          line-height: 4rem;
+          b {
+            color: rgb(0, 186, 199);
+          }
+        }
+        p {
+          color: #fff;
+          font-size: 1rem;
+          line-height: 20px;
+          text-align: justify;
+        }
+        .a-imp {
+          padding-top: 2rem;
+          line-height: 25px;
+          font-size: 1rem;
+        }
+        .b-column {
+          margin-top: 3rem;
+          text-align: center;
+          .b-bt {
+            color: #fff;
+            font-size: 2rem;
+            font-family: "Chakra Petch";
+            line-height: 4rem;
+
+            b {
+              color: rgba(0, 185, 199, 1);
+            }
+          }
+          p {
+            color: #fff;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,323 @@
+.ct-main {
+  min-height: 100vh;
+  width: 100%;
+  background: #1b1b1b;
+ overflow-x: hidden;
+  .ct-title {
+    display: flex;
+    justify-content: center;
+
+    span {
+      color: #fff;
+      font-size: 67px;
+      font-family: "Chakra Petch";
+      margin-top: 5rem;
+    }
+  }
+  .ct-row {
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .ct-roww {
+      color: #fff;
+      flex: 0.6;
+      padding-left: 5rem;
+      line-height: 100px;
+
+
+      .ct-ftn {
+        text-decoration: none;
+        list-style: none;
+      }
+      span {
+        font-size: 36px;
+        line-height: 90px;
+
+        b {
+          color: #00b9c7;
+        }
+      }
+      .np {
+        color: rgba(245, 245, 245, 0.5);
+        font-size: 24px;
+        line-height: 70px;
+      }
+      .gmail {
+        font-size: 24px;
+        line-height: 70px;
+        color: #fff;
+        &:hover {
+          color: #00b9c7;
+        }
+      }
+      p {
+        font-size: 24px;
+        line-height: 70px;
+      }
+    }
+
+    .ct-column {
+      justify-content: space-around;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .ct-tow {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        input {
+          background: #2f2f2f;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          width: 342px;
+          height: 57px;
+          font-size: 20px;
+          padding-left: 5px;
+          color: #fff;
+          border: 2px solid #00b9c7;
+        }
+      }
+
+      .ct-sub {
+        display: flex;
+        flex-direction: column;
+        input {
+          background: #2f2f2f;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          width: 719px;
+          height: 57px;
+          font-size: 20px;
+          padding-left: 5px;
+          color: #fff;
+          border: 2px solid #00b9c7;
+        }
+      }
+      .ct-comment {
+        display: flex;
+        margin-top: 2rem;
+        textarea {
+          background: #2f2f2f;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          width: 719px;
+          height: 253px;
+          font-size: 20px;
+          padding-left: 10px;
+          color: #fff;
+          border: 2px solid #00b9c7;
+          text-align: start;
+        }
+      }
+      .ct-btn {
+        width: 135px;
+        height: 46px;
+        background: #00b9c7;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 9px;
+        &:hover {
+          background-color: #f5468b;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .footer-row {
+    margin-top:5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    span {
+      font-size: 20px;
+      color: #fff;
+      padding-left: 8rem;
+      list-style: none;
+      list-style-type: none;
+      list-style: none;
+      text-decoration: none;
+    }
+    .td-img1 {
+      margin-bottom: 5px;
+     
+         height: 1.5rem;
+      &:hover {
+        background-color: #00b9c7;
+        cursor: pointer;
+        border-radius: 30px;
+      }
+    }
+    .td-img {
+       height: 2rem;
+
+      &:hover {
+        background-color: #00b9c7;
+        cursor: pointer;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 890px) {
+  .ct-main {
+    width: 100%;
+    background: #1b1b1b;
+
+    .ct-title {
+      display: flex;
+      justify-content: center;
+
+      span {
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Chakra Petch";
+        margin-top: 5rem;
+      }
+    }
+    .ct-row {
+      display: flex;
+      margin-top: 5rem;
+      flex-direction: column;
+
+      .ct-roww {
+        color: #fff;
+        flex: 0.6;
+        padding: 0;
+        line-height: 20px;
+        margin-left: 1.5rem;
+
+        .ct-ftn {
+          text-decoration: none;
+          list-style: none;
+        }
+        span {
+          font-size: 1.5rem;
+          line-height: 90px;
+
+          b {
+            color: #00b9c7;
+          }
+        }
+        .np {
+          color: rgba(245, 245, 245, 0.5);
+          font-size: 1rem;
+          line-height: 70px;
+        }
+        .gmail {
+          font-size: 1rem;
+          line-height: 70px;
+          color: #fff;
+          &:hover {
+            color: #00b9c7;
+          }
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 30px;
+        }
+      }
+
+      .ct-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .ct-tow {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          input {
+            background: #2f2f2f;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 90%;
+            height: 3rem;
+            font-size: 20px;
+            padding-left: 5px;
+            color: #fff;
+            border: none;
+            margin: 0 auto;
+          }
+        }
+
+        .ct-sub {
+          display: flex;
+          flex-direction: column;
+          input {
+            background: #2f2f2f;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 90%;
+            height: 3rem;
+            font-size: 20px;
+            padding-left: 5px;
+            color: #fff;
+            border: none;
+            margin: 0 auto;
+          }
+        }
+        .ct-comment {
+          display: flex;
+          margin-top: 2rem;
+          textarea {
+            background: #2f2f2f;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 90%;
+            margin: 0 auto;
+            border: none;
+            padding: 12px;
+          }
+        }
+        .ct-btn {
+          width: 135px;
+          height: 46px;
+          background: #00b9c7;
+          font-size: 20px;
+          color: #ffffff;
+          text-align: center;
+          padding-top: 9px;
+          margin-left: 1.5rem;
+          &:hover {
+            background-color: #f5468b;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .footer-row {
+      margin: 4rem 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+
+      span {
+        font-size: 1rem;
+        color: #fff;
+        padding-left: 1rem;
+        list-style: none;
+        list-style-type: none;
+        list-style: none;
+        text-decoration: none;
+      }
+      .td-img1 {
+        margin-bottom: 8px;
+        height: 1.2rem;
+        &:hover {
+          background-color: #00b9c7;
+          cursor: pointer;
+          border-radius: 30px;
+        }
+      }
+      .td-img {
+        margin-bottom: 5px;
+
+        height: 1.4rem;
+        &:hover {
+          background-color: #00b9c7;
+          cursor: pointer;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}

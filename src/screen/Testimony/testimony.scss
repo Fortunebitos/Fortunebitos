@@ -1,0 +1,105 @@
+.ty-main {
+  min-height: 100vh;
+  width: 100%;
+ min-height: 100vh;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dkg6aexz0/image/upload/v1669941865/testimonies_bg_tlmjcz.png");
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+.swipers{
+    
+    height: 50rem;
+}
+  .ty-title {
+    display: flex;
+    justify-content: center;
+  span {
+      color: #fff;
+      font-size: 67px;
+      font-family: "Chakra Petch";
+      margin-top: 2rem;
+    }
+  }
+  .ty-border {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .ty-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 30px;
+  .ty-text {
+      color: #fff;
+      font-size: 15px;
+      font-style: italic;
+      span {
+        font-size: 25px;
+        color: #ffffff;
+        font-style: normal;
+      }
+    }
+    p {
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+  .ty-eclipse {
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .ty-main {
+     
+  .swipers {
+      height: 50rem;
+    }
+    .ty-title {
+      display: flex;
+      justify-content: center;
+      
+      span {
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Chakra Petch";
+        margin-top: 2rem;
+      }
+    }
+    .ty-border {
+      border: 1px solid gray;
+      width: 90%;
+      margin: 3rem auto;
+   
+    }
+    .ty-row {
+      display: flex;
+      flex-direction: column;
+      line-height: 30px;
+      gap: 1rem;
+      padding-left: 2rem;
+     
+
+    .ty-text {
+        color: #fff;
+        font-size: 1rem;
+        font-style: italic;
+        span {
+          font-size: 1.2rem;
+          color: #ffffff;
+          font-style: normal;
+        }
+      }
+      p {
+        font-size: 1.2rem;
+        color: #ffffff;
+      }
+    }
+ 
+  }
+}

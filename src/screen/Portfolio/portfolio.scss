@@ -1,0 +1,98 @@
+.main {
+  background-image: url("https://res.cloudinary.com/dkg6aexz0/image/upload/v1669269380/Desktop_-_1_6_wm9hny.png");
+  background-size: cover;
+  background-position: center;
+
+  .landing {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .ld-p {
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        color: #ffff;
+        font-family: "Chakra Petch";
+        font-size: 75px;
+
+        span {
+          color: #00b9c7;
+        }
+      }
+      p {
+        color: #ffff;
+        font-family: "Chakra Petch";
+        font-size: 25px;
+      }
+      .cv {
+        width: 217px;
+        height: 50px;
+        background: #00b9c7;
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        margin: 2rem;
+        padding: 0.4rem;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #f5468b;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .main {
+    background-color: red;
+
+    .landing {
+      .ld-p {
+        h1 {
+          color: #ffff;
+          font-family: "Chakra Petch";
+          font-size: 2rem;
+          margin-top: 2rem;
+
+          span {
+            color: #00b9c7;
+          }
+        }
+        p {
+          color: #ffff;
+          font-family: "Chakra Petch";
+          font-size: 1.1rem;
+        }
+        .cv {
+          width: 60%;
+          height: 40px;
+          background: #00b9c7;
+          border-radius: 30px;
+          text-align: center;
+          color: #fff;
+          font-size: 16px;
+          margin: 2rem;
+          padding: 0;
+
+          &:hover {
+            cursor: pointer;
+            background-color: #f5468b;
+          }
+        }
+        .logo {
+          height: 6rem;
+          width: 30%;
+        }
+      }
+    }
+  }
+}
