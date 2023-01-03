@@ -5,7 +5,7 @@
 
   .swipers{
     margin-top: 0;
-     height: 35rem;
+     height: 40rem;
   }
   .title {
     display: flex;
@@ -207,19 +207,16 @@ height: 20rem;
     }
  }
 
-
-
-  
 }
 
 @media only screen and (max-width: 890px) {
   .pt-main {
-  min-height: 100vh;
+  min-height: 170vh;
   width: 100%;
   background: #1b1b1b;
 .swipers{
     margin-top: 0;
-     height: 55rem;
+     height: 59rem;
      
   }
   .title {
@@ -373,14 +370,14 @@ p{
 } 
   }
   .pt-pic{
-     margin: 1rem auto;
+     margin: 5rem auto;
     .img{
-height: 8rem;
+height: 11rem;
     width: 100%;
    
     }
     .img1{
-height: 14rem;
+height: 19rem;
     width: 100%;
    
     }

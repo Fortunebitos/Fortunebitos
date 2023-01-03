@@ -20,7 +20,7 @@ const Portfolio = ({ id }) => {
               </h1>
 
               <p>Front-End Developer</p>
-              <button className="cv">Download Cv</button>
+              <a href="https://github.com/Fortunebitos/resume/raw/main/Bitos-FortuneJr.-D.-Front-end-Dev%20(4).pdf" className="cv">Download Cv</a>
             </div>
           </Tilt>
         </div>
