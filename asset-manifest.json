@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fortunebitos/static/css/main.87dd1f91.css",
-    "main.js": "/fortunebitos/static/js/main.00466cfb.js",
+    "main.js": "/fortunebitos/static/js/main.ae8f7264.js",
     "static/js/787.128fc6e9.chunk.js": "/fortunebitos/static/js/787.128fc6e9.chunk.js",
     "index.html": "/fortunebitos/index.html",
     "main.87dd1f91.css.map": "/fortunebitos/static/css/main.87dd1f91.css.map",
-    "main.00466cfb.js.map": "/fortunebitos/static/js/main.00466cfb.js.map",
+    "main.ae8f7264.js.map": "/fortunebitos/static/js/main.ae8f7264.js.map",
     "787.128fc6e9.chunk.js.map": "/fortunebitos/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87dd1f91.css",
-    "static/js/main.00466cfb.js"
+    "static/js/main.ae8f7264.js"
   ]
 }
