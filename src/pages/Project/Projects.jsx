@@ -31,8 +31,21 @@ const Projects= ({ id }) => {
                 <div className="pt-btn1">Css</div>
                 <div className="pt-btn2">JavaScript</div>
                 <div className="pt-btn3">React Js</div>
-                <div className="pt-btn4">Sass</div>
-     </div></div>
+                  <div className="pt-btn4">Sass</div>
+                    
+                </div>
+            <div className="git-row">
+            <a href="https://github.com/Fortunebitos">
+                 <div className="pt-github">Github</div>
+                    </a>
+                     
+            <a href="https://www.facebook.com/mtc.kashimaro?mibextid=ZbWKwL">
+                 <div className="pt-github">Facebook</div>
+                    </a>
+                   
+              </div>
+              </div>
+                
         <div className="pt-pic" data-aos="zoom-in-right" data-aos-duration="1000">
         <img src="https://res.cloudinary.com/dkg6aexz0/image/upload/v1670487274/Group_2_rokbhe.png" alt="" className="img1"/>
           </div>
@@ -58,7 +71,17 @@ const Projects= ({ id }) => {
                 <div className="pt-btn3">React Js</div>
                 <div className="pt-btn4">Sass</div>
      </div>
-</p>
+                </p>
+                 <div className="git-row">
+            <a href="https://github.com/Fortunebitos">
+                 <div className="pt-github">Github</div>
+                    </a>
+                     
+            <a href="https://www.facebook.com/mtc.kashimaro?mibextid=ZbWKwL">
+                 <div className="pt-github">Facebook</div>
+                    </a>
+                   
+              </div>
      </div>
         <div className="pt-pic" data-aos="zoom-in-right" data-aos-duration="1000">
         <img src="https://res.cloudinary.com/dkg6aexz0/image/upload/v1669883046/projects_recent_r1ulcf.png" alt="" className="img"/>

@@ -71,7 +71,7 @@ const Testimony = ({ id }) => {
           </p>
           <p>
            Grabi ang galing niya mag design ng banner sa youtube ko.
-            <br /> Madali din siyang kausap, at madali mo siyang ma contact.
+         Madali din     <br />siyang kausap, at madali mo siyang ma contact.
           </p>
             </div>
           </SwiperSlide>

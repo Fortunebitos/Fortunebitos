@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import { Parallax } from "react-scroll-parallax";
+
 
 const About = ({ id }) => {
   return (

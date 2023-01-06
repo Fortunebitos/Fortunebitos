@@ -41,6 +41,29 @@ p{
   line-height: 2rem;
  
 }
+.git-row{
+  display: flex;
+  flex-direction: row;
+
+gap: 3rem;
+  .pt-github{
+  margin: 2rem 0;
+  align-items: center;
+  height: 2.4rem;
+  width: 150%;
+  background:#f5468b;
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 10px;
+  &:hover {
+          cursor: pointer;
+          background-color:rgba(0, 185, 199, 1);
+        }
+
+}
+}
+
 
     }
 .row-btn{
@@ -194,12 +217,12 @@ padding-top: 8px;
   }
   .pt-pic{
        .img{
-height: 20rem;
+height: 25rem;
     width: 100%;
    
     }
         .img1{
-height: 20rem;
+height: 30rem;
     width: 100%;
    
     }
@@ -607,12 +630,12 @@ p{
   .pt-pic{
      margin: 5rem auto;
     .img{
-height: 11rem;
+height: 14rem;
     width: 100%;
    
     }
     .img1{
-height: 19rem;
+height: 20rem;
     width: 100%;
    
     }
