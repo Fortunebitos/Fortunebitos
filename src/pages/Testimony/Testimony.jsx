@@ -42,7 +42,7 @@ const Testimony = ({ id }) => {
           </p>
           <p>
             Mr. Fort magaling siya mag deisgn at mag manage ng client.
-            <br /> I’m thankfull that found someone facing my problem.
+             I’m <br />thankfull that found someone facing my problems.
           </p>
             </div>
           </SwiperSlide>
